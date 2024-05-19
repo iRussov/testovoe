@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F1F1;
+  }
+  
+  .header-layer {
+    border-bottom: 1px solid #ddd;
+  }
+  .first-layer {
+    background-color: white;
+  }
+  .second-layer {
+    background-color: #FAFAFA;
+    height: 40px;
+  }
+  .icon-text-group {
+    display: flex;
+    align-items: center;
+  }
+  .second-layer .container,
+  .second-layer .row, .nav-layer nav, ul, li{
+    height: 100%; 
+  }
+  .nav-layer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+
+  .nav-layer nav ul li:hover{
+    cursor: pointer;
+    background-color: #F1F1F1;
+  }
+  .nav-layer nav ul li a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+  }
+
+  .container{
+    max-width: 1440px;
+  }
+
+  .nav-layer li.active {
+    background-color: #dadada; 
+  }
+
+  #map{
+    height: 430px;
+  }
+  .leaflet-bottom.leaflet-right{
+    display: none;
+  }
+  .fa-arrow-left{
+    color: black;
+  }
+  .blue-icon{
+    color: blue;
+  }
+  .fa-angle-down{
+    color: grey;
+  }
+  .row{
+    --bs-gutter-x: 0;
+  }
+
+  .custom-section {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .custom-comment {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333;
+    text-align: left;
+    border-left: 2px solid #cecece ;
+  }
+  .img-sun{
+    height: 300px;
+    width: 70%;
+  }
+  .profile-photo {
+    width: 200px; 
+    height: 200px; 
+  }
+  .custom-link {
+    color: black;
+    text-decoration: none;
+  }
+  .custom-link:hover {
+    color: black;
+    text-decoration: none;
+  }
+  .blue-btn{
+    width: 100%;
+  }
+
+
+  #preloader {
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: 1000;
+    display: flex;
+  }
+  
+.spinner-border{
+  width: 4rem; 
+  height: 4rem;
+  position: relative;
+}
+
+.spinner-border::after {
+  content: '';
+  position: absolute; 
+  top:-6%;
+  right: -3%;
+  width: 20px; 
+  height: 5px; 
+  background-color: black; 
+  border-radius: 2px;
+  transform: rotate(80deg); 
+}
+
+.spinner-border::before {
+  content: '';
+  position: absolute;
+  top: 8%; 
+  right: 8%;
+  width: 20px;
+  height: 5px;
+  background-color: black; 
+  border-radius: 2px;
+  transform: rotate(-10deg); 
+}
+
+.custom-section2 {
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.icon-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrap{
+  justify-content: space-between;
+}
+
+.container2{
+  margin: 35px;
+}
