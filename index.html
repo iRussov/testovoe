@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Резюме</title>
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/leaflet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" type="text/css" href="./styles/phone-style.css" media = "screen and (max-width:768px)"/>
+</head>
+<body>
+
+  <header>
+    
+    <div class="header-layer first-layer py-3">
+      <div class="container">
+        <div class="row px-1 flex-column flex-md-row">
+          <div class="col d-flex align-items-center">
+            <i class="fa-regular fa-circle-left me-3 fs-5"></i>
+            <span class="fw-bold me-1">User Pages</span> - Profile
+          </div>
+          <div class="col d-flex align-items-center justify-content-end">
+            <div class="row icon-text-group">
+              <i class="fas fa-chart-bar d-flex justify-content-center fs-5 blue-icon "></i>
+              <span class = "d-flex justify-content-center fs-6">Statistics</span>
+            </div>
+            <div class="row icon-text-group">
+              <i class="fas fa-file-invoice d-flex justify-content-center fs-5 blue-icon"></i>
+              <span class="d-flex justify-content-center fs-6">Invoices</span>
+            </div>
+            <div class="row icon-text-group">
+              <i class="fas fa-calendar-alt d-flex justify-content-center fs-5 blue-icon"></i>
+              <span class="d-flex justify-content-center fs-6">Schedule</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="header-layer second-layer align-items-center">
+      <div class="container custom-gutter">
+        <div class="row flex-column flex-md-row">
+          <div class="col d-flex nav-layer">
+            <nav>
+              <ul>
+                <li class="d-flex align-items-center active mx-3 px-2" id="link-home"><a href="/"><i class="fas fa-tasks"></i>Activity</a></li>
+                <li class="d-flex align-items-center me-3 px-2" id="link-map"><a href="/map"><i class="fas fa-map-marker-alt"></i>Map</a></li>
+                <li class="d-flex align-items-center px-2" id="link-time"><a href="/timer" ><i class="fas fa-clock"></i>Time</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col d-flex justify-content-end">
+            <div class="icon-text-group me-3">
+              <i class="fas fa-sticky-note me-1"></i> <span>Notes</span>
+            </div>
+            <div class="icon-text-group me-3">
+              <i class="fas fa-user-friends me-1"></i> <span>Friends</span>
+            </div>
+            <div class="icon-text-group me-3">
+              <i class="fas fa-camera me-1"></i> <span>Photos</span>
+            </div>
+            <div class="icon-text-group">
+              <i class="fas fa-cog me-1"></i> <span></span>
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- в мэйн!-->
+  
+    
+  <div id="content"></div>
+  <script src="./scripts/script.js"></script>
+  <script src="./scripts/bootstrap.min.js"></script>
+  <script src="./scripts/leaflet.js"></script>
+</body>
+</html>
